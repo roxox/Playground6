@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "92FFB59C-364F-43D1-BAD3-0928646FF833"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40643521-2986-493D-A6F0-3671419CD2A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Playground6/ExploreViewFiles/GroupListRowItem.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "40643521-2986-493D-A6F0-3671419CD2A2 - 929648eb48b9ebc1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Playground6.GroupListRowItem.body.getter : some"
+                  moduleName = "Playground6"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/basti/Projekte/Playground6/Playground6/ExploreViewFiles/GroupListRowItem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "648">
+               </Location>
+               <Location
+                  uuid = "40643521-2986-493D-A6F0-3671419CD2A2 - 6c5f97537777a590"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in Playground6.GroupListRowItem.body.getter : some"
+                  moduleName = "Playground6"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/basti/Projekte/Playground6/Playground6/ExploreViewFiles/GroupListRowItem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "808">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

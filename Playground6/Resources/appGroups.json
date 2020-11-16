@@ -1,0 +1,101 @@
+
+[
+    
+    
+    {
+        "title": "Basketball im Stadtpark",
+        "description": "Grrne auch regelmäßig",
+        "id": "1010",
+        "memberships": [],
+        "type": {"rawValue": 2},
+        "imageName": "sport4"
+    },
+    {
+        "title": "Italienisch essen gehen",
+        "description": "Ich habe von einer Pizzeria in Downtown gehört und würde sie gerne mal ausprobieren.",
+        "id": "1011",
+        "memberships": [],
+        "type": {"rawValue": 0},
+        "imageName": "essen5"
+    },
+    {
+        "title": "Steve Aoki im Hakkasan",
+        "description": "Die Party soll der Hammer werden, wäre cool, wenn sich jemand finden lässt, der mitkommt.",
+        "id": "1012",
+        "memberships": [],
+        "type": {"rawValue": 1},
+        "imageName": "entertainment3"
+    },
+    {
+        "title": "Fußball auf dem Bolzplatz",
+        "description": "Grrne auch regelmäßig",
+        "id": "1013",
+        "memberships": [],
+        "type": {"rawValue": 2},
+        "imageName": "sport2"
+    },
+    {
+        "title": "Italienisch essen gehen",
+        "description": "Ich habe von einer Pizzeria in Downtown gehört und würde sie gerne mal ausprobieren.",
+        "id": "1014",
+        "memberships": [],
+        "type": {"rawValue": 0},
+        "imageName": "essen3"
+    },
+    {
+        "title": "Boarden im Stadtpark",
+        "description": "Grrne auch regelmäßig",
+        "id": "1006",
+        "memberships": [],
+        "type": {"rawValue": 2},
+        "imageName": "group1"
+    },
+    {
+        "title": "Burger bei Hans im Glück",
+        "description": "Ich habe von einer Pizzeria in Downtown gehört und würde sie gerne mal ausprobieren.",
+        "id": "1004",
+        "memberships": [],
+        "type": {"rawValue": 0},
+        "imageName": "group2"
+    },
+    {
+        "title": "Videoabend bei mir auf der Couch",
+        "description": "Die Party soll der Hammer werden, wäre cool, wenn sich jemand finden lässt, der mitkommt.",
+        "id": "1005",
+        "memberships": [],
+        "type": {"rawValue": 1},
+        "imageName": "group4"
+    },
+    {
+        "title": "Fußball auf dem Bolzplatz",
+        "description": "Grrne auch regelmäßig",
+        "id": "1007",
+        "memberships": [],
+        "type": {"rawValue": 2},
+        "imageName": "group5"
+    },
+    {
+        "title": "Mittagessen an der Alster",
+        "description": "Ich habe von einer Pizzeria in Downtown gehört und würde sie gerne mal ausprobieren.",
+        "id": "1008",
+        "memberships": [],
+        "type": {"rawValue": 0},
+        "imageName": "group6"
+    },
+    {
+        "title": "Steve Aoki im Hakkasan",
+        "description": "Die Party soll der Hammer werden, wäre cool, wenn sich jemand finden lässt, der mitkommt.",
+        "id": "1009",
+        "memberships": [],
+        "type": {"rawValue": 1},
+        "imageName": "entertainment2"
+    },
+    {
+        "title": "Steve Aoki im Hakkasan",
+        "description": "Die Party soll der Hammer werden, wäre cool, wenn sich jemand finden lässt, der mitkommt.",
+        "id": "1015",
+        "memberships": [],
+        "type": {"rawValue": 1},
+        "imageName": "entertainment1"
+    }
+]

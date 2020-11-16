@@ -1,0 +1,178 @@
+[
+    {
+        "username": "Sebastian",
+        "email": "katha.fox@gmx.net",
+        "id": "1004",
+        "searchParameter": {
+            "isFoodSelected": true,
+            "isSportSelected": true,
+            "isEntertainmentSelected": true,
+            "isActive": true,
+            "description": "Food",
+            "location": {
+                "longitude": 53.729763,
+                "latitude": 9.781793
+            },
+            "locationName": "Los Angeles"
+        },
+        "imageName": "basti3",
+        "searchTypes": [{"rawValue": 0}, {"rawValue": 1}, {"rawValue": 2}],
+        "groups": [],
+        "memberships": [],
+        "created": "01.01.2020"
+    },
+    {
+        "username": "Mira Sophie",
+        "email": "sebastian.fox@me.com",
+        "id": "1001",
+        "searchParameter": {
+            "isFoodSelected": false,
+            "isSportSelected": true,
+            "isEntertainmentSelected": false,
+            "isActive": true,
+            "description": "Entertainment",
+            "location": {
+                "longitude": 10.052971,
+                "latitude": 53.581111
+            },
+            "locationName": "Anaheim"
+        },
+        "imageName": "mira",
+        "searchTypes": [{"rawValue": 0}, {"rawValue": 1}, {"rawValue": 2}],
+        "groups": [],
+        "memberships": [],
+        "created": "01.01.2020"
+    },
+    {
+        "username": "Katharina",
+        "email": "katha.fox@gmx.net",
+        "id": "1002",
+        "searchParameter": {
+            "isFoodSelected": true,
+            "isSportSelected": false,
+            "isEntertainmentSelected": true,
+            "isActive": true,
+            "description": "Entertainment",
+            "location": {
+                "longitude": -152.665167,
+                "latitude": 59.980167
+            },
+            "locationName": "Laguna Beach"
+        },
+        "imageName": "katha",
+        "searchTypes": [{"rawValue": 0}, {"rawValue": 1}, {"rawValue": 2}],
+        "groups": [],
+        "memberships": [],
+        "created": "01.01.2020"
+    },
+    {
+        "username": "Caro",
+        "email": "sebastian.fox@me.com",
+        "id": "1003",
+        "searchParameter": {
+            "isFoodSelected": false,
+            "isSportSelected": true,
+            "isEntertainmentSelected": false,
+            "isActive": true,
+            "description": "Entertainment",
+            "location": {
+                "longitude": -152.665167,
+                "latitude": 59.980167
+            },
+            "locationName": "Hollywood"
+        },
+        "imageName": "carolina",
+        "searchTypes": [{"rawValue": 0}],
+        "groups": [],
+        "memberships": [],
+        "created": "01.01.2020"
+    },
+    {
+        "username": "Dan",
+        "email": "katha.fox@gmx.net",
+        "id": "1005",
+        "searchParameter": {
+            "isFoodSelected": true,
+            "isSportSelected": true,
+            "isEntertainmentSelected": true,
+            "isActive": true,
+            "description": "Food",
+            "location": {
+                "longitude": 53.729763,
+                "latitude": 9.781793
+            },
+            "locationName": "Los Angeles"
+        },
+        "imageName": "basti",
+        "searchTypes": [{"rawValue": 0}, {"rawValue": 1}, {"rawValue": 2}],
+        "groups": [],
+        "memberships": [],
+        "created": "01.01.2020"
+    },
+    {
+        "username": "Andrea",
+        "email": "sebastian.fox@me.com",
+        "id": "1006",
+        "searchParameter": {
+            "isFoodSelected": false,
+            "isSportSelected": true,
+            "isEntertainmentSelected": false,
+            "isActive": true,
+            "description": "Entertainment",
+            "location": {
+                "longitude": -152.665167,
+                "latitude": 59.980167
+            },
+            "locationName": "Anaheim"
+        },
+        "imageName": "mira2",
+        "searchTypes": [{"rawValue": 0}, {"rawValue": 1}, {"rawValue": 2}],
+        "groups": [],
+        "memberships": [],
+        "created": "01.01.2020"
+    },
+    {
+        "username": "Jessica",
+        "email": "katha.fox@gmx.net",
+        "id": "1007",
+        "searchParameter": {
+            "isFoodSelected": true,
+            "isSportSelected": false,
+            "isEntertainmentSelected": true,
+            "isActive": true,
+            "description": "Entertainment",
+            "location": {
+                "longitude": -152.665167,
+                "latitude": 59.980167
+            },
+            "locationName": "Laguna Beach"
+        },
+        "imageName": "katha2",
+        "searchTypes": [{"rawValue": 0}, {"rawValue": 1}, {"rawValue": 2}],
+        "groups": [],
+        "memberships": [],
+        "created": "01.01.2020"
+    },
+    {
+        "username": "Lauren",
+        "email": "sebastian.fox@me.com",
+        "id": "1008",
+        "searchParameter": {
+            "isFoodSelected": false,
+            "isSportSelected": true,
+            "isEntertainmentSelected": false,
+            "isActive": true,
+            "description": "Entertainment",
+            "location": {
+                "longitude": -152.665167,
+                "latitude": 59.980167
+            },
+            "locationName": "Hollywood"
+        },
+        "imageName": "carolina2",
+        "searchTypes": [{"rawValue": 0}],
+        "groups": [],
+        "memberships": [],
+        "created": "01.01.2020"
+    }
+]
