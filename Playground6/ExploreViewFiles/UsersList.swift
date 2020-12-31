@@ -121,7 +121,7 @@ struct UsersList: View {
                             .background(Color.black.opacity(0.6)).cornerRadius(25)
                             
                             
-                            if createNewGroup {
+                            if !createNewGroup {
                                 Button(action: {
                                     self.addOrRemove(selectedUser)
                                 }) {
@@ -211,7 +211,7 @@ struct UsersList: View {
                                     HStack() {
                                         Spacer()
                                         
-                                        if createNewGroup {
+                                        if !createNewGroup {
                                             Button(action: {
                                                 self.addOrRemove(user)
                                             }) {

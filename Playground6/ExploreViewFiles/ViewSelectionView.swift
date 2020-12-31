@@ -18,8 +18,12 @@ struct ViewSelectionView: View {
         VStack() {
         if viewIndex == .groups {
             GroupsView(groups: $groups, design: $design)
-        } else  if viewIndex == .persons {
+        } else  if viewIndex == .groups2 {
             UsersView(users: $users, createNewGroup: $createNewGroup)
+        } else  if viewIndex == .persons {
+            UsersView3(users: $users, createNewGroup: $createNewGroup)
+        } else  if viewIndex == .persons2 {
+            UsersView2(users: $users, createNewGroup: $createNewGroup)
         } else  if viewIndex == .search {
             SearchView()
         } else {

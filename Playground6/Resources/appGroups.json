@@ -8,7 +8,8 @@
         "id": "1010",
         "memberships": [],
         "type": {"rawValue": 2},
-        "imageName": "sport4"
+        "imageName": "sport4",
+        "userId": "1004"
     },
     {
         "title": "Italienisch essen gehen",
@@ -16,7 +17,8 @@
         "id": "1011",
         "memberships": [],
         "type": {"rawValue": 0},
-        "imageName": "essen5"
+        "imageName": "essen5",
+        "userId": "1004"
     },
     {
         "title": "Steve Aoki im Hakkasan",
@@ -24,15 +26,17 @@
         "id": "1012",
         "memberships": [],
         "type": {"rawValue": 1},
-        "imageName": "entertainment3"
+        "imageName": "entertainment3",
+        "userId": "1004"
     },
     {
-        "title": "Fußball auf dem Bolzplatz",
+        "title": "Skaten im Stadtpark",
         "description": "Grrne auch regelmäßig",
         "id": "1013",
         "memberships": [],
         "type": {"rawValue": 2},
-        "imageName": "sport2"
+        "imageName": "sport2",
+        "userId": "1004"
     },
     {
         "title": "Italienisch essen gehen",
@@ -40,7 +44,8 @@
         "id": "1014",
         "memberships": [],
         "type": {"rawValue": 0},
-        "imageName": "essen3"
+        "imageName": "essen3",
+        "userId": "1004"
     },
     {
         "title": "Boarden im Stadtpark",
@@ -48,7 +53,8 @@
         "id": "1006",
         "memberships": [],
         "type": {"rawValue": 2},
-        "imageName": "group1"
+        "imageName": "group1",
+        "userId": "1004"
     },
     {
         "title": "Burger bei Hans im Glück",
@@ -56,7 +62,8 @@
         "id": "1004",
         "memberships": [],
         "type": {"rawValue": 0},
-        "imageName": "group2"
+        "imageName": "group2",
+        "userId": "1004"
     },
     {
         "title": "Videoabend bei mir auf der Couch",
@@ -64,7 +71,8 @@
         "id": "1005",
         "memberships": [],
         "type": {"rawValue": 1},
-        "imageName": "group4"
+        "imageName": "group4",
+        "userId": "1004"
     },
     {
         "title": "Fußball auf dem Bolzplatz",
@@ -72,7 +80,8 @@
         "id": "1007",
         "memberships": [],
         "type": {"rawValue": 2},
-        "imageName": "group5"
+        "imageName": "group5",
+        "userId": "1004"
     },
     {
         "title": "Mittagessen an der Alster",
@@ -80,7 +89,8 @@
         "id": "1008",
         "memberships": [],
         "type": {"rawValue": 0},
-        "imageName": "group6"
+        "imageName": "group6",
+        "userId": "1004"
     },
     {
         "title": "Steve Aoki im Hakkasan",
@@ -88,7 +98,8 @@
         "id": "1009",
         "memberships": [],
         "type": {"rawValue": 1},
-        "imageName": "entertainment2"
+        "imageName": "entertainment2",
+        "userId": "1004"
     },
     {
         "title": "Steve Aoki im Hakkasan",
@@ -96,6 +107,7 @@
         "id": "1015",
         "memberships": [],
         "type": {"rawValue": 1},
-        "imageName": "entertainment1"
+        "imageName": "entertainment1",
+        "userId": "1004"
     }
 ]

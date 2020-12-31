@@ -12,6 +12,7 @@ struct MyGroupsView: View {
     @State var showingDetail = false
     @State var groups = appGroupData
     @State var design = Design.list
+    @State var currentPage = 0
     
     var body: some View {
         VStack(alignment: .center) {
@@ -67,11 +68,8 @@ struct MyGroupsView: View {
                         self.showingDetail.toggle()
                     }) {
                         Image(systemName: "square.and.pencil")
-//                            .font(.system(size: 22, weight: .bold))
                             .font(.systemBold(size: 20))
                             .imageScale(.medium)
-//                            .foregroundColor(.black)
-//                            .foregroundColor(Color .gray)
                             .foregroundColor(Color ("almost_black"))
 //                            .foregroundColor(.gray)
                             .frame(width: 24, height: 24)
@@ -93,6 +91,11 @@ struct MyGroupsView: View {
 //                    UserShowroom_2()
 //                }
                 GroupList(groups: $groups, design: $design)
+                
+                PageView([
+                    Text("Hallo"),
+                    Text("Hallo")
+                ], currentPage: $currentPage)
             }
             Spacer()
         }

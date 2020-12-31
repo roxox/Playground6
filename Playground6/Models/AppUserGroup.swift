@@ -22,6 +22,7 @@ struct AppUserGroup: Codable, Identifiable {
     var locationName: String?
     var locationLatitude: String?
     var locationLongitude: String?
+    var userId: String?
     
     
 //    var invitedMembers: [Membership] {
@@ -54,6 +55,15 @@ struct AppUserGroup: Codable, Identifiable {
     
     init() {
 //        memberships = []
+    }
+    
+    func returnUserFromId() -> AppUser? {
+        for user in appUserData {
+            if self.userId == user.id {
+                return user
+            }
+        }
+        return nil
     }
     
 //    mutating func addGroupMembership(user: inout AppUser, role: UserGroupRole, status: UserGroupStatus) -> Membership {

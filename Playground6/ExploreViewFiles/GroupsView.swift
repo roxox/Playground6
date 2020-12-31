@@ -12,7 +12,7 @@ struct GroupsView: View {
     @Binding var design: Design
     
     var body: some View {
-        ScrollView() {
+//        ScrollView() {
             Rectangle()
                 .fill(Color .white)
                 .frame(height: 20)
@@ -32,12 +32,6 @@ struct GroupsView: View {
                 .frame(height: 10)
             
             GroupList(groups: $groups, design: $design)
-        }
+//        }
     }
 }
-
-//struct GroupsView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        GroupsView()
-//    }
-//}

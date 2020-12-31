@@ -10,6 +10,8 @@ import SwiftUI
 struct UsersList2: View {
     
     @Binding var users: [AppUser]
+    @Binding var createNewGroup: Bool
+    
     
     @State var selectedUser: AppUser = appUserData[0]
     let itemWidthGroup: CGFloat = 384 //167*2+20+30

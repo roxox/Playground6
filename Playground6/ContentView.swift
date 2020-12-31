@@ -62,6 +62,8 @@ struct ContentView: View {
                 }
             } else if pageIndex == 1 {
                 MyGroupsView()
+            } else if pageIndex == 2 {
+                TestView2()
             }
             
                 VStack{
