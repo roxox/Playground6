@@ -56,6 +56,7 @@ struct ContentView: View {
             if pageIndex == 0 {
                 if isSearchActive {
                     ExploreView(createNewGroup: $createNewGroup)
+//                    NewExploreView()
                 } else {
                     SearchDeactivatedView(isSearchActive: $isSearchActive)
                         .padding(.top, 4)

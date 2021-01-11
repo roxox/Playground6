@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		402CA534254CC63400E06A12 /* GroupListRowItem_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402CA533254CC63400E06A12 /* GroupListRowItem_2.swift */; };
 		402CA536254CCBCB00E06A12 /* UserShowroom_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402CA535254CCBCB00E06A12 /* UserShowroom_2.swift */; };
 		402E29EE256297A500B2CA3D /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E29ED256297A500B2CA3D /* CollectionView.swift */; };
+		4039E287259D870100C4F3C1 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 4039E286259D870100C4F3C1 /* WaterfallGrid */; };
 		404DA98D257FA25B00E55832 /* UsersView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DA98C257FA25B00E55832 /* UsersView3.swift */; };
 		404DA9AF2581A0A200E55832 /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DA9AE2581A0A200E55832 /* SegmentedPicker.swift */; };
 		40501DD72547975D00E4D65E /* SearchDeactivatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40501DD62547975D00E4D65E /* SearchDeactivatedView.swift */; };
@@ -116,6 +117,13 @@
 		4098F0F125470CB7007225FD /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4098F0F025470CB7007225FD /* UserProfileView.swift */; };
 		40AAFC14256B3EA20017C2E5 /* UsersList3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AAFC13256B3EA20017C2E5 /* UsersList3.swift */; };
 		40AAFC18256B4DC20017C2E5 /* UsersView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AAFC17256B4DC20017C2E5 /* UsersView2.swift */; };
+		40BFDE9B259D8CAB002387FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40BFDE9A259D8CAB002387FF /* GoogleService-Info.plist */; };
+		40BFDEA0259F6F4E002387FF /* GroupsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BFDE9F259F6F4E002387FF /* GroupsView2.swift */; };
+		40BFDEA4259F6F7E002387FF /* GroupItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BFDEA3259F6F7D002387FF /* GroupItemView.swift */; };
+		40BFDEA7259F6FB1002387FF /* GroupUsersChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BFDEA6259F6FB1002387FF /* GroupUsersChunk.swift */; };
+		40BFDEAB259F7938002387FF /* NewExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BFDEAA259F7938002387FF /* NewExploreView.swift */; };
+		40BFDEAF259F7CE0002387FF /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BFDEAE259F7CE0002387FF /* RedView.swift */; };
+		40BFDEB2259F7CEA002387FF /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BFDEB1259F7CEA002387FF /* BlueView.swift */; };
 		40E179352540C0850010DE54 /* Playground6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E179342540C0850010DE54 /* Playground6App.swift */; };
 		40E179372540C0850010DE54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E179362540C0850010DE54 /* ContentView.swift */; };
 		40E179392540C0890010DE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E179382540C0890010DE54 /* Assets.xcassets */; };
@@ -150,6 +158,7 @@
 		40E17980254192100010DE54 /* mira2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40E1797D254192100010DE54 /* mira2.jpg */; };
 		40E179822541F2AA0010DE54 /* GroupDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E179812541F2AA0010DE54 /* GroupDetails.swift */; };
 		40F70588258ADC05007A6E07 /* TestView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F70587258ADC05007A6E07 /* TestView2.swift */; };
+		F434975EFDD034AD13E36A86 /* Pods_Playground6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984E6E12BA831E225E241F4F /* Pods_Playground6.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -263,6 +272,13 @@
 		4098F0F025470CB7007225FD /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		40AAFC13256B3EA20017C2E5 /* UsersList3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersList3.swift; sourceTree = "<group>"; };
 		40AAFC17256B4DC20017C2E5 /* UsersView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView2.swift; sourceTree = "<group>"; };
+		40BFDE9A259D8CAB002387FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40BFDE9F259F6F4E002387FF /* GroupsView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView2.swift; sourceTree = "<group>"; };
+		40BFDEA3259F6F7D002387FF /* GroupItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupItemView.swift; sourceTree = "<group>"; };
+		40BFDEA6259F6FB1002387FF /* GroupUsersChunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupUsersChunk.swift; sourceTree = "<group>"; };
+		40BFDEAA259F7938002387FF /* NewExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExploreView.swift; sourceTree = "<group>"; };
+		40BFDEAE259F7CE0002387FF /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
+		40BFDEB1259F7CEA002387FF /* BlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueView.swift; sourceTree = "<group>"; };
 		40E179312540C0850010DE54 /* Playground6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E179342540C0850010DE54 /* Playground6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground6App.swift; sourceTree = "<group>"; };
 		40E179362540C0850010DE54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -299,6 +315,9 @@
 		40E1797D254192100010DE54 /* mira2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mira2.jpg; sourceTree = "<group>"; };
 		40E179812541F2AA0010DE54 /* GroupDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetails.swift; sourceTree = "<group>"; };
 		40F70587258ADC05007A6E07 /* TestView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView2.swift; sourceTree = "<group>"; };
+		90814542AA14036320A138CC /* Pods-Playground6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground6.debug.xcconfig"; path = "Target Support Files/Pods-Playground6/Pods-Playground6.debug.xcconfig"; sourceTree = "<group>"; };
+		984E6E12BA831E225E241F4F /* Pods_Playground6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Playground6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB06A5038E8F30EA5BA1320B /* Pods-Playground6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground6.release.xcconfig"; path = "Target Support Files/Pods-Playground6/Pods-Playground6.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,12 +325,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F434975EFDD034AD13E36A86 /* Pods_Playground6.framework in Frameworks */,
+				4039E287259D870100C4F3C1 /* WaterfallGrid in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		313CAB769B130F471C728A7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				984E6E12BA831E225E241F4F /* Pods_Playground6.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		40185D402552BFF900C94D2D /* MyGroupsViewFiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +352,9 @@
 		4061C3A72542F1D3002DAA70 /* ExploreViewFiles */ = {
 			isa = PBXGroup;
 			children = (
+				40BFDEAA259F7938002387FF /* NewExploreView.swift */,
+				40BFDE9E259F6EE1002387FF /* Groups */,
+				40BFDE9D259F6EDA002387FF /* Users */,
 				4061C3AA2542F254002DAA70 /* ExploreView.swift */,
 				40F70587258ADC05007A6E07 /* TestView2.swift */,
 				408AAB9E255E05EA00024E43 /* ViewSelectionView.swift */,
@@ -462,12 +494,33 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		40BFDE9D259F6EDA002387FF /* Users */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		40BFDE9E259F6EE1002387FF /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				40BFDE9F259F6F4E002387FF /* GroupsView2.swift */,
+				40BFDEA3259F6F7D002387FF /* GroupItemView.swift */,
+				40BFDEA6259F6FB1002387FF /* GroupUsersChunk.swift */,
+				40BFDEAE259F7CE0002387FF /* RedView.swift */,
+				40BFDEB1259F7CEA002387FF /* BlueView.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
 		40E179282540C0850010DE54 = {
 			isa = PBXGroup;
 			children = (
 				4098F0BB2546C776007225FD /* Fonts */,
 				40E179332540C0850010DE54 /* Playground6 */,
 				40E179322540C0850010DE54 /* Products */,
+				740972A705F2898E65CD112E /* Pods */,
+				313CAB769B130F471C728A7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -496,6 +549,7 @@
 				40E1794A2540C0BC0010DE54 /* Resources */,
 				40E179382540C0890010DE54 /* Assets.xcassets */,
 				40E1793D2540C0890010DE54 /* Info.plist */,
+				40BFDE9A259D8CAB002387FF /* GoogleService-Info.plist */,
 				40E1793A2540C0890010DE54 /* Preview Content */,
 			);
 			path = Playground6;
@@ -568,6 +622,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		740972A705F2898E65CD112E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90814542AA14036320A138CC /* Pods-Playground6.debug.xcconfig */,
+				DB06A5038E8F30EA5BA1320B /* Pods-Playground6.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -575,15 +638,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40E179402540C0890010DE54 /* Build configuration list for PBXNativeTarget "Playground6" */;
 			buildPhases = (
+				97ADFED17BA8CB345E431FC7 /* [CP] Check Pods Manifest.lock */,
 				40E1792D2540C0850010DE54 /* Sources */,
 				40E1792E2540C0850010DE54 /* Frameworks */,
 				40E1792F2540C0850010DE54 /* Resources */,
+				7DABE7086388909D3AC4804B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Playground6;
+			packageProductDependencies = (
+				4039E286259D870100C4F3C1 /* WaterfallGrid */,
+			);
 			productName = Playground6;
 			productReference = 40E179312540C0850010DE54 /* Playground6.app */;
 			productType = "com.apple.product-type.application";
@@ -611,6 +679,9 @@
 				Base,
 			);
 			mainGroup = 40E179282540C0850010DE54;
+			packageReferences = (
+				4039E285259D870100C4F3C1 /* XCRemoteSwiftPackageReference "WaterfallGrid" */,
+			);
 			productRefGroup = 40E179322540C0850010DE54 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -702,6 +773,7 @@
 				40E1796D2540C0BC0010DE54 /* appUser.json in Resources */,
 				40E179682540C0BC0010DE54 /* mira.png in Resources */,
 				40E1796A2540C0BC0010DE54 /* essen3.png in Resources */,
+				40BFDE9B259D8CAB002387FF /* GoogleService-Info.plist in Resources */,
 				4098F0C42546C84B007225FD /* Coniferous-Demo-Regular.otf in Resources */,
 				4098F0C62546C84B007225FD /* Coniferous-Demo-Black.otf in Resources */,
 				408AAB872559F63300024E43 /* basti3.jpg in Resources */,
@@ -722,6 +794,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DABE7086388909D3AC4804B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playground6/Pods-Playground6-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playground6/Pods-Playground6-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Playground6/Pods-Playground6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97ADFED17BA8CB345E431FC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Playground6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40E1792D2540C0850010DE54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -741,6 +855,8 @@
 				404DA98D257FA25B00E55832 /* UsersView3.swift in Sources */,
 				408EADCE255834C300E04D17 /* MapView.swift in Sources */,
 				408AAB8D255DFD6E00024E43 /* PageView.swift in Sources */,
+				40BFDEAF259F7CE0002387FF /* RedView.swift in Sources */,
+				40BFDEA0259F6F4E002387FF /* GroupsView2.swift in Sources */,
 				40AAFC14256B3EA20017C2E5 /* UsersList3.swift in Sources */,
 				4061C3B82546009C002DAA70 /* MenuControl.swift in Sources */,
 				408AAB9C255E041700024E43 /* GroupsView.swift in Sources */,
@@ -755,17 +871,20 @@
 				4061C3A62542E43C002DAA70 /* NewGroupView.swift in Sources */,
 				408EADC32554C76900E04D17 /* MyGroupsView.swift in Sources */,
 				40E179372540C0850010DE54 /* ContentView.swift in Sources */,
+				40BFDEAB259F7938002387FF /* NewExploreView.swift in Sources */,
 				406D4BF025498A4D005AB9D8 /* MenuUserSelection.swift in Sources */,
 				408AAB9F255E05EA00024E43 /* ViewSelectionView.swift in Sources */,
 				40501DD72547975D00E4D65E /* SearchDeactivatedView.swift in Sources */,
 				4061C3AB2542F254002DAA70 /* ExploreView.swift in Sources */,
 				408EAE022558E35B00E04D17 /* GroupListRowItem_4.swift in Sources */,
 				400488E1257DC32B000D0BD5 /* UsersList4.swift in Sources */,
+				40BFDEB2259F7CEA002387FF /* BlueView.swift in Sources */,
 				40E179352540C0850010DE54 /* Playground6App.swift in Sources */,
 				40E179822541F2AA0010DE54 /* GroupDetails.swift in Sources */,
 				408AAB84255980FB00024E43 /* UsersList2.swift in Sources */,
 				408AAB93255DFFC000024E43 /* PageControl.swift in Sources */,
 				408AAB8A255ABD4800024E43 /* SearchView.swift in Sources */,
+				40BFDEA7259F6FB1002387FF /* GroupUsersChunk.swift in Sources */,
 				4061C3AD2542F8C9002DAA70 /* UserShowroom.swift in Sources */,
 				408AAB96255E01F000024E43 /* SimpleView.swift in Sources */,
 				406D4BEC254985EF005AB9D8 /* GroupDetailView.swift in Sources */,
@@ -777,6 +896,7 @@
 				40E179472540C0A80010DE54 /* UserComponent.swift in Sources */,
 				408EADCB2554DEDA00E04D17 /* SubMenuCategory.swift in Sources */,
 				402E29EE256297A500B2CA3D /* CollectionView.swift in Sources */,
+				40BFDEA4259F6F7E002387FF /* GroupItemView.swift in Sources */,
 				4061C3B12543141D002DAA70 /* GroupList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -902,6 +1022,7 @@
 		};
 		40E179412540C0890010DE54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90814542AA14036320A138CC /* Pods-Playground6.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -910,22 +1031,27 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Playground6/Preview Content\"";
 				DEVELOPMENT_TEAM = 67XV55K2JH;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = Playground6/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sebastianfox.Playground6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
 		40E179422540C0890010DE54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB06A5038E8F30EA5BA1320B /* Pods-Playground6.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -934,17 +1060,21 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Playground6/Preview Content\"";
 				DEVELOPMENT_TEAM = 67XV55K2JH;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = Playground6/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sebastianfox.Playground6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
@@ -970,6 +1100,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4039E285259D870100C4F3C1 /* XCRemoteSwiftPackageReference "WaterfallGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paololeonardi/WaterfallGrid.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4039E286259D870100C4F3C1 /* WaterfallGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4039E285259D870100C4F3C1 /* XCRemoteSwiftPackageReference "WaterfallGrid" */;
+			productName = WaterfallGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 40E179292540C0850010DE54 /* Project object */;
 }

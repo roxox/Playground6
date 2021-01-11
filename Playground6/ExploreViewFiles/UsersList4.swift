@@ -13,6 +13,7 @@
 // 3. List für alls Events
 // 4. TabView für Events und User
 import SwiftUI
+import WaterfallGrid
 
 struct UsersList4: View {
     
@@ -79,9 +80,13 @@ struct UsersList4: View {
     
     @ViewBuilder
     func fetchUserChunk(chunk: [AppUser]) -> some View {
+
         LazyVGrid(columns: fixedLayout) {
+//            WaterfallGrid(appUserData) { rectangle in
+//                Text(rectangle.image)
+//            }
             ForEach(chunk, id: \.self) { user in
-                
+
                 user.image
                     .renderingMode(.original)
                     .resizable()
@@ -89,26 +94,27 @@ struct UsersList4: View {
                     .frame(width: itemWidth, height: itemHeight)
                     .cornerRadius(15)
 //                    .shadow(radius: 2, y: 1)
-                    
+
                     .overlay(
                         ZStack() {
                             VStack() {
                                 gradient
                             }
-                            
+
                             VStack(alignment: .center) {
                                 Spacer()
-                                HStack() {
-                                    
-                                    Text("Los Angeles")
-                                        .font(.systemBold(size: 12))
-                                        .foregroundColor(.white)
-                                    Spacer()
-                                }
-                                
+//                                HStack() {
+//
+//                                    Text("Los Angeles")
+//                                        .font(.systemBold(size: 12))
+//                                        .foregroundColor(.white)
+//                                    Spacer()
+//                                }
+
                                 HStack() {
                                     Text(user.username)
-                                        .font(.systemMedium(size: 17))
+//                                        .font(.systemMedium(size: 17))
+                                        .font(.systemMedium(size: 19))
                                         .lineLimit(1)
                                         .foregroundColor(.white)
                                     Spacer()
@@ -120,12 +126,10 @@ struct UsersList4: View {
                         .cornerRadius(15)
                     )
             }
-            
+
             ForEach(0..<getPlaceholders(chunk: chunk), id: \.self) { card in
                 RoundedRectangle(cornerRadius: 15)
-//                    .fill(Color.clear)
                     .fill(Color ("super_bright_gray"))
-//                    .fill(VisualEffectView(effect: UIBlurEffect(style: .light)))
                     .frame(width: itemWidth, height: itemHeight)
                     .overlay(
                         VisualEffectView(effect: UIBlurEffect(style: .light))
@@ -136,7 +140,7 @@ struct UsersList4: View {
                             Image(systemName: "person.crop.circle.fill.badge.xmark")
                                 .font(.systemSemibold(size: 45))
                                 .foregroundColor(Color ("mid_gray"))
-                            
+
                             Text(card == 0 ? "Hier könnte dein Bild zu sehen sein" : card == 1 ? "oder hier" : "oder vielleicht hier")
                                 .font(.systemSemibold(size: 10))
                                 .foregroundColor(Color ("mid_gray"))
@@ -169,17 +173,18 @@ struct UsersList4: View {
                                 
                                 HStack(alignment: .center) {
                                     Text(appGroup.title!)
-                                        .font(.systemMedium(size: 22))
+                                        .font(.systemBold(size: 22))
                                         .foregroundColor(Color .black)
-//                                        .foregroundColor(Color .white)
                                         .lineLimit(1)
                                 }
                                 
                                 HStack() {
-                                    Text("Heute • Los Angeles, \(getRandomDistance())")
-                                        .font(.systemMedium(size: 17))
+//                                    Text("Heute • Los Angeles, \(getRandomDistance())")
+//                                    Text("Heute in Los Angeles, \(getRandomDistance())")
+                                    Text("Heute in Los Angeles")
+//                                        .font(.systemMedium(size: 17))
+                                        .font(.systemBold(size: 22))
                                         .foregroundColor(Color .black)
-//                                        .foregroundColor(Color .white)
                                         .offset(y: -1)
                                 }
                                 .lineLimit(1)
@@ -192,14 +197,12 @@ struct UsersList4: View {
                                         .font(.systemBold(size: 20))
                                         .imageScale(.medium)
                                         .foregroundColor(Color .black)
-//                                        .foregroundColor(Color .white)
                                         .frame(width: 28, height: 28)
-                                    
+
                                     Image(systemName: "arrowshape.turn.up.forward")
                                         .font(.systemBold(size: 20))
                                         .imageScale(.medium)
                                         .foregroundColor(Color .black)
-//                                        .foregroundColor(Color .white)
                                         .frame(width: 28, height: 26)
                                 }
                                 Spacer()
@@ -209,125 +212,44 @@ struct UsersList4: View {
                         }
                     }
                 }
-//                .padding(.horizontal, 10)
-//                .padding(.vertical, 15)
-//                .background(Color ("midnight"))
-//                .background(Color.white)
-//                .background(VisualEffectView(effect: UIBlurEffect(style: .light)))
-//                .cornerRadius(15)
-//                .shadow(radius: 1)
                 .padding(.horizontal, 10)
-                .padding(.bottom, 7)
+                .padding(.bottom, 13)
             }
-            
-//            ScrollView(.horizontal) {
-//                HStack() {
-//            PageView(
-//                [
             
             TabView(selection: $currentPage){
                     ForEach(getUserChunks(), id: \.self) { chunk in
+//                        GroupUsersChunk(users: chunk)
                         fetchUserChunk(chunk: chunk)
                     }
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
-//            .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
-//                ] , currentPage: $currentPage
-//                )
-//                }
+            .padding(.bottom, 45)
+            
+//            HStack(alignment: .center) {
+//                Text("8 Teilnehmer, 5 interessiert")
+//                    .font(.systemMedium(size: 16))
+//                                        .foregroundColor(Color .black)
+//                    .lineLimit(1)
+//                    .padding(5)
+//                    .background(Color ("super_bright_gray"))
+//                    .cornerRadius(5)
+//
+//                    .padding(.leading, 10)
+//                    .padding(.vertical, 8)
+//
+//                Text("Essen und Trinken")
+//                    .font(.systemMedium(size: 16))
+//                                        .foregroundColor(Color .black)
+//                    .lineLimit(1)
+//                    .padding(5)
+//                    .background(Color ("super_bright_gray"))
+//                    .cornerRadius(5)
+//
+//                    .padding(.trailing, 10)
+//                    .padding(.vertical, 8)
+//                Spacer()
 //            }
-            
-            
-            //            LazyVGrid(columns: fixedLayout) {
-            //                ForEach(getChunk(identifier: 0), id: \.self) { user in
-            //
-            //                    user.image
-            //                        .renderingMode(.original)
-            //                        .resizable()
-            //                        .scaledToFill()
-            //                        .frame(width: itemWidth, height: itemHeight)
-            //                        .cornerRadius(15)
-            //                        .shadow(radius: 2, y: 1)
-            //
-            //                        .overlay(
-            //                            ZStack() {
-            //                                VStack() {
-            //                                    gradient
-            //                                }
-            //
-            //                                VStack(alignment: .center) {
-            //                                    Spacer()
-            //                                    HStack() {
-            //                                        Text("Los Angeles")
-            //                                            .font(.systemBold(size: 12))
-            //                                            .foregroundColor(.white)
-            //                                        Spacer()
-            //                                    }
-            //
-            //                                    HStack() {
-            //                                        Text(user.username)
-            //                                            .font(.systemMedium(size: 17))
-            //                                            .lineLimit(1)
-            //                                            .foregroundColor(.white)
-            //                                        Spacer()
-            //                                    }
-            //                                    .padding(.bottom, 14)
-            //                                }
-            //                                .padding(.leading, 14)
-            //                            }
-            //                            .cornerRadius(15)
-            //                        )
-            //                }
-            //
-            //                ForEach(0..<getEmptyCards(), id: \.self) { card in
-            //                    RoundedRectangle(cornerRadius: 15)
-            //                        .fill(Color ("super_bright_gray"))
-            //                        .frame(width: itemWidth, height: itemHeight)
-            //                        .overlay(
-            //                            VStack() {
-            //                                Image(systemName: "person.crop.circle.fill.badge.xmark")
-            //                                    .font(.systemSemibold(size: 45))
-            //                                    .foregroundColor(Color ("mid_gray"))
-            //
-            //                                Text(card == 0 ? "Hier könnte dein Bild zu sehen sein" : card == 1 ? "oder hier" : "oder vielleicht hier")
-            //                                    .font(.systemSemibold(size: 10))
-            //                                    .foregroundColor(Color ("mid_gray"))
-            //                            }
-            //                        )
-            //                }
-            //            }
-            
-            HStack(alignment: .center) {
-                Text("8 Teilnehmer, 5 interessiert")
-                    .font(.systemMedium(size: 16))
-                                        .foregroundColor(Color .black)
-//                                        .foregroundColor(Color .white)
-                    .lineLimit(1)
-                    .padding(5)
-                    .background(Color ("super_bright_gray"))
-//                    .background(VisualEffectView(effect: UIBlurEffect(style: .light)))
-                    .cornerRadius(5)
-//                    .shadow(radius: 2, y: 1)
-                    
-                    .padding(.leading, 10)
-                    .padding(.vertical, 8)
-                
-                Text("Essen und Trinken")
-                    .font(.systemMedium(size: 16))
-                                        .foregroundColor(Color .black)
-//                                        .foregroundColor(Color .white)
-                    .lineLimit(1)
-                    .padding(5)
-                    .background(Color ("super_bright_gray"))
-//                    .background(VisualEffectView(effect: UIBlurEffect(style: .light)))
-                    .cornerRadius(5)
-//                    .shadow(radius: 2, y: 1)
-                    
-                    .padding(.trailing, 10)
-                    .padding(.vertical, 8)
-                Spacer()
-            }
-            .padding(.bottom, 20)
+//            .padding(.bottom, 20)
         }
     }
 }
