@@ -33,28 +33,59 @@ extension Font {
         return Font.custom("Airbnb Cereal App", size: CGFloat(size))
     }
     
-//    static func system(size: Int) -> Font {
-//        return Font.custom("SFProDisplay-Regular", size: CGFloat(size))
-//    }
-    
     static func system(size: Int) -> Font {
-        return Font.custom("FONTSPRINGDEMO-ProximaNovaRegular", size: CGFloat(size))
+        return Font.custom("Airbnb Cereal App", size: CGFloat(size))
     }
     static func systemMedium(size: Int) -> Font {
-        return Font.custom("FONTSPRINGDEMO-ProximaNovaMediumRegular", size: CGFloat(size))
+        return Font.custom("Airbnb Cereal App", size: CGFloat(size)).weight(.medium)
     }
     static func systemSemibold(size: Int) -> Font {
-        return Font.custom("FONTSPRINGDEMO-ProximaNovaSemiboldRegular", size: CGFloat(size))
+        return Font.custom("Airbnb Cereal App", size: CGFloat(size)).weight(.semibold)
     }
     static func systemBold(size: Int) -> Font {
-        return Font.custom("FONTSPRINGDEMO-ProximaNovaBold", size: CGFloat(size))
+        return Font.custom("Airbnb Cereal App", size: CGFloat(size)).weight(.bold)
+    }
+    static func systemLight(size: Int) -> Font {
+        return Font.custom("Airbnb Cereal App Light", size: CGFloat(size))
+    }
+    static func systemBook(size: Int) -> Font {
+        return Font.custom("Airbnb Cereal App Light", size: CGFloat(size))
     }
     static func systemExtrabold(size: Int) -> Font {
-        return Font.custom("FONTSPRINGDEMO-ProximaNovaExtraboldRegular", size: CGFloat(size))
+        return Font.custom("Airbnb Cereal App Extra Bold", size: CGFloat(size))
     }
-//    FONTSPRINGDEMO-ProximaNovaRegular
+//}
+
+//static func system(size: Int) -> Font {
+//    return Font.custom("SFProDisplay-Regular", size: CGFloat(size))
+//}
+//static func systemMedium(size: Int) -> Font {
+//    return Font.custom("SFProDisplay-Regular", size: CGFloat(size)).weight(.medium)
+//}
+//static func systemSemibold(size: Int) -> Font {
+//    return Font.custom("SFProDisplay-Regular", size: CGFloat(size)).weight(.semibold)
+//}
+//static func systemBold(size: Int) -> Font {
+//    return Font.custom("SFProDisplay-Regular", size: CGFloat(size)).weight(.bold)
+//}
+//static func systemExtrabold(size: Int) -> Font {
+//    return Font.custom("SFProDisplay-Regular", size: CGFloat(size))
+//}
+    
 //    static func system(size: Int) -> Font {
-//        return Font.custom("SFProDisplay-Regular", size: CGFloat(size))
+//        return Font.custom("FONTSPRINGDEMO-ProximaNovaRegular", size: CGFloat(size))
+//    }
+//    static func systemMedium(size: Int) -> Font {
+//        return Font.custom("FONTSPRINGDEMO-ProximaNovaMediumRegular", size: CGFloat(size))
+//    }
+//    static func systemSemibold(size: Int) -> Font {
+//        return Font.custom("FONTSPRINGDEMO-ProximaNovaSemiboldRegular", size: CGFloat(size))
+//    }
+//    static func systemBold(size: Int) -> Font {
+//        return Font.custom("FONTSPRINGDEMO-ProximaNovaBold", size: CGFloat(size))
+//    }
+//    static func systemExtrabold(size: Int) -> Font {
+//        return Font.custom("FONTSPRINGDEMO-ProximaNovaExtraboldRegular", size: CGFloat(size))
 //    }
     
     static func sfBold(size: Int) -> Font {

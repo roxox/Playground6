@@ -10,7 +10,7 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct AppUserGroup: Codable, Identifiable {
+struct AppUserGroup: Hashable, Codable, Identifiable {
     
     var id: String?
     var title: String?

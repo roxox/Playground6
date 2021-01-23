@@ -1,6 +1,7 @@
 [
     {
         "username": "Sebastian",
+        "firstname": "Sebastian",
         "email": "katha.fox@gmx.net",
         "id": "1004",
         "searchParameter": {
@@ -22,7 +23,8 @@
         "created": "01.01.2020"
     },
     {
-        "username": "Mira Sophie",
+        "username": "Mira",
+        "firstname": "Sebastian",
         "email": "sebastian.fox@me.com",
         "id": "1001",
         "searchParameter": {
@@ -45,6 +47,7 @@
     },
     {
         "username": "Katharina",
+        "firstname": "Sebastian",
         "email": "katha.fox@gmx.net",
         "id": "1002",
         "searchParameter": {
@@ -67,6 +70,7 @@
     },
     {
         "username": "Caro",
+        "firstname": "Sebastian",
         "email": "sebastian.fox@me.com",
         "id": "1003",
         "searchParameter": {
@@ -89,6 +93,7 @@
     },
     {
         "username": "Dan",
+        "firstname": "Sebastian",
         "email": "katha.fox@gmx.net",
         "id": "1005",
         "searchParameter": {
@@ -111,6 +116,7 @@
     },
     {
         "username": "Andrea",
+        "firstname": "Sebastian",
         "email": "sebastian.fox@me.com",
         "id": "1006",
         "searchParameter": {
@@ -133,6 +139,7 @@
     },
     {
         "username": "Jessica",
+        "firstname": "Sebastian",
         "email": "katha.fox@gmx.net",
         "id": "1007",
         "searchParameter": {
@@ -155,6 +162,7 @@
     },
     {
         "username": "Lauren",
+        "firstname": "Sebastian",
         "email": "sebastian.fox@me.com",
         "id": "1008",
         "searchParameter": {

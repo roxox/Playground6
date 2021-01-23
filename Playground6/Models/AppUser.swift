@@ -17,6 +17,7 @@ struct AppUser: Hashable, Codable, Identifiable {
     var id: String
     var email: String
     var username: String
+    var firstname: String
     var selected: Bool? = false
     var searchParameter: SearchParameter
     fileprivate var imageName: String

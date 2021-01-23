@@ -4,7 +4,7 @@
     
     {
         "title": "Basketball im Stadtpark",
-        "description": "Grrne auch regelmäßig",
+        "description": "Die Party soll der Hammer werden, wäre cool, wenn sich jemand finden lässt, der mitkommt.",
         "id": "1010",
         "memberships": [],
         "type": {"rawValue": 2},
@@ -31,7 +31,7 @@
     },
     {
         "title": "Skaten im Stadtpark",
-        "description": "Grrne auch regelmäßig",
+        "description": "Die Party soll der Hammer werden, wäre cool, wenn sich jemand finden lässt, der mitkommt.",
         "id": "1013",
         "memberships": [],
         "type": {"rawValue": 2},
@@ -44,16 +44,16 @@
         "id": "1014",
         "memberships": [],
         "type": {"rawValue": 0},
-        "imageName": "essen3",
+        "imageName": "hollywood",
         "userId": "1004"
     },
     {
         "title": "Boarden im Stadtpark",
-        "description": "Grrne auch regelmäßig",
+        "description": "Die Party soll der Hammer werden, wäre cool, wenn sich jemand finden lässt, der mitkommt.",
         "id": "1006",
         "memberships": [],
         "type": {"rawValue": 2},
-        "imageName": "group1",
+        "imageName": "InNOut2",
         "userId": "1004"
     },
     {
