@@ -28,14 +28,6 @@ struct GroupItemView: View {
     // current page of user chunks
     @State var currentPage = 0
     
-//    func getUserChunks() -> [[AppUser]] {
-//        let splitSize = numberOfGroups
-//        let chunks = stride(from: 0, to: groupUsers.count, by: splitSize).map {
-//            Array(groupUsers[$0..<min($0 + splitSize, groupUsers.count)])
-//        }
-//        return chunks
-//    }
-    
     // grid layout
     var fixedLayout: [GridItem] {
         [
@@ -49,7 +41,6 @@ struct GroupItemView: View {
             Text("Gruppen")
             TabView(selection: $currentPage){
                 ForEach(appUserData, id: \.self) { user in
-//                    Text(user.username)
                     LazyVGrid(columns: fixedLayout) {
                         ForEach(appUserData, id: \.self) { user in
                             user.image
@@ -65,20 +56,7 @@ struct GroupItemView: View {
                         }
                         
                     }
-//                    user.image
-//                        .renderingMode(.original)
-//                        .resizable()
-//                        .scaledToFill()
-//                        .frame(width: itemWidth, height: itemHeight)
-//                        .cornerRadius(15)
                 }
-//                Text("User1")
-//                Text("User2")
-//                Text("User3")
-//                Text("User4")
-////                ForEach(getUserChunks(), id: \.self) { chunk in
-//                    GroupUsersChunk(users: groupUsers)
-////                }
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
         }

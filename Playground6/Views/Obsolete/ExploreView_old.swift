@@ -12,7 +12,7 @@ let sizeText = 14
 let sizeCircleExploreView: CGFloat = 78
 let sizeRoundedRectangelExploreView: CGFloat = 68
 
-struct ExploreView: View {
+struct ExploreView_old: View {
     @EnvironmentObject var menuControl: MenuControl
     @State var groups = appGroupData
     @State var users = appUserData

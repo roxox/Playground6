@@ -17,19 +17,12 @@ struct GroupsUserWidget: View {
     var body: some View {
         VStack() {
             HStack(alignment: .bottom) {
-//                Spacer()
-                Text("Finde Gleichgesinnte")
-//                    .font(.systemBold(size: 28))
+                Text("Find Like-minded people")
                     .font(.systemBold(size: 26))
                     .foregroundColor(Color.black)
                     .lineLimit(2)
                 
                 Spacer()
-                //                Text("Alle anzeigen")
-                //                    .font(.systemBold(size: 15))
-                //                    .underline()
-                //                    .foregroundColor(.black)
-                //                    .offset(y: -2)
             }
             .padding(.horizontal, 25)
             .padding(.top, 25)
@@ -44,13 +37,11 @@ struct GroupsUserWidget: View {
                                 .renderingMode(.original)
                                 .resizable()
                                 .scaledToFill()
-                                //                            .frame(width: itemWidth, height: itemHeight)
                                 .frame(width: itemWidth, height: itemWidth)
                                 .overlay(
                                     gradient
                                 )
                                 .cornerRadius(39)
-                            //                                                            .shadow(radius: 3)
                             
                             HStack(alignment: .center) {
                                 Text(user.username)
@@ -102,7 +93,6 @@ struct GroupsUserWidget: View {
                 HStack() {
                     Text("Alle 10 Benutzer anzeigen")
                         .font(.systemBold(size: 16))
-//                        .underline()
                         .foregroundColor(.black)
                         .padding(.vertical, 8)
                         .padding(.horizontal, 10)
@@ -121,9 +111,3 @@ struct GroupsUserWidget: View {
         .edgesIgnoringSafeArea(.all)
     }
 }
-
-//struct GroupsUserWidget_Previews: PreviewProvider {
-//    static var previews: some View {
-//        GroupsUserWidget()
-//    }
-//}

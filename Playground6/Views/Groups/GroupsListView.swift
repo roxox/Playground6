@@ -12,7 +12,7 @@
 // 3. List für alls Events
 // 4. TabView für Events und User
 import SwiftUI
-import WaterfallGrid
+//import WaterfallGrid
 
 struct GroupsListView: View {
     
@@ -65,17 +65,6 @@ struct GroupsListView: View {
 //                    }
                     Spacer()
                     
-//                        HStack() {
-//                            Text("Alle anzeigen")
-//                                .font(.systemBold(size: 16))
-//                                //                        .underline()
-//                                .foregroundColor(.black)
-//                                .padding(.vertical, 6)
-//                                .padding(.horizontal, 10)
-//                        }
-//                        .clipShape(RoundedRectangle(cornerRadius: 8))
-//                        .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color .black, lineWidth: 2))
-                    
                 }
                 .padding(.top, 25)
                 .padding(.horizontal, 15)
@@ -99,8 +88,6 @@ struct GroupsListView: View {
                     ], currentPage: $displayedItemIndex)
                     .frame(width: deviceWidth)
                     .frame(height: itemHeightGroup + 5)
-//                    .padding(.bottom, 3)
-//                    .padding(.bottom, 11)
                     .padding(.bottom, 10)
                 }
                 .padding(.top, 2)
@@ -131,7 +118,6 @@ struct GroupsListView: View {
                                 .renderingMode(.original)
                                 .resizable()
                                 .scaledToFill()
-                                //                                .frame(width: itemWidth, height: itemHeight)
                                 .frame(width: itemHeight, height: itemWidth)
                                 .overlay(
                                     
@@ -183,7 +169,6 @@ struct GroupsListView: View {
                 HStack() {
                     Text("Alle anzeigen")
                         .font(.systemBold(size: 16))
-                        //                        .underline()
                         .foregroundColor(.black)
                         .padding(.vertical, 6)
                         .padding(.horizontal, 10)

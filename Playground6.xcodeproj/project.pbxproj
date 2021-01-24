@@ -15,7 +15,6 @@
 		402CA536254CCBCB00E06A12 /* UserShowroomAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402CA535254CCBCB00E06A12 /* UserShowroomAlternative.swift */; };
 		402E29EE256297A500B2CA3D /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E29ED256297A500B2CA3D /* CollectionView.swift */; };
 		403160C625ACCE9300317BB4 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 403160C525ACCE9300317BB4 /* marker.png */; };
-		4039E287259D870100C4F3C1 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 4039E286259D870100C4F3C1 /* WaterfallGrid */; };
 		404DA98D257FA25B00E55832 /* UsersMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DA98C257FA25B00E55832 /* UsersMainView.swift */; };
 		404DA9AF2581A0A200E55832 /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DA9AE2581A0A200E55832 /* SegmentedPicker.swift */; };
 		40501DD72547975D00E4D65E /* SearchDeactivatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40501DD62547975D00E4D65E /* SearchDeactivatedView.swift */; };
@@ -52,7 +51,7 @@
 		405C32E625BA4A0600EE1420 /* GroupsGroupsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405C32E525BA4A0600EE1420 /* GroupsGroupsWidget.swift */; };
 		405C32E925BA4A2B00EE1420 /* GroupsRecommendationWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405C32E825BA4A2A00EE1420 /* GroupsRecommendationWidget.swift */; };
 		4061C3A62542E43C002DAA70 /* NewGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061C3A52542E43C002DAA70 /* NewGroupView.swift */; };
-		4061C3AB2542F254002DAA70 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061C3AA2542F254002DAA70 /* ExploreView.swift */; };
+		4061C3AB2542F254002DAA70 /* ExploreView_old.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061C3AA2542F254002DAA70 /* ExploreView_old.swift */; };
 		4061C3AD2542F8C9002DAA70 /* UserShowroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061C3AC2542F8C9002DAA70 /* UserShowroom.swift */; };
 		4061C3AF254313D4002DAA70 /* AppUserGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061C3AE254313D4002DAA70 /* AppUserGroup.swift */; };
 		4061C3B12543141D002DAA70 /* GroupList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061C3B02543141D002DAA70 /* GroupList.swift */; };
@@ -219,7 +218,7 @@
 		405C32E525BA4A0600EE1420 /* GroupsGroupsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsGroupsWidget.swift; sourceTree = "<group>"; };
 		405C32E825BA4A2A00EE1420 /* GroupsRecommendationWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsRecommendationWidget.swift; sourceTree = "<group>"; };
 		4061C3A52542E43C002DAA70 /* NewGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupView.swift; sourceTree = "<group>"; };
-		4061C3AA2542F254002DAA70 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		4061C3AA2542F254002DAA70 /* ExploreView_old.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView_old.swift; sourceTree = "<group>"; };
 		4061C3AC2542F8C9002DAA70 /* UserShowroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserShowroom.swift; sourceTree = "<group>"; };
 		4061C3AE254313D4002DAA70 /* AppUserGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserGroup.swift; sourceTree = "<group>"; };
 		4061C3B02543141D002DAA70 /* GroupList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupList.swift; sourceTree = "<group>"; };
@@ -350,7 +349,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F434975EFDD034AD13E36A86 /* Pods_Playground6.framework in Frameworks */,
-				4039E287259D870100C4F3C1 /* WaterfallGrid in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +374,18 @@
 			path = MyGroupsViewFiles;
 			sourceTree = "<group>";
 		};
+		40375B6D25BD0CF600E1FEEA /* ExploreView */ = {
+			isa = PBXGroup;
+			children = (
+				408AAB98255E040400024E43 /* GroupsMainView.swift */,
+				405C32E525BA4A0600EE1420 /* GroupsGroupsWidget.swift */,
+				405C32A225B11E8F00EE1420 /* GroupsUserWidget.swift */,
+				405C32AA25B3D8A100EE1420 /* GroupsChatWidget.swift */,
+				405C32E825BA4A2A00EE1420 /* GroupsRecommendationWidget.swift */,
+			);
+			path = ExploreView;
+			sourceTree = "<group>";
+		};
 		405C328325AE6E2800EE1420 /* OtherViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -398,11 +408,14 @@
 		405C329A25AE7AB600EE1420 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				40375B6D25BD0CF600E1FEEA /* ExploreView */,
+				40BFDE9E259F6EE1002387FF /* Groups */,
 				4061C3A72542F1D3002DAA70 /* ExploreViewFiles */,
 				40185D402552BFF900C94D2D /* MyGroupsViewFiles */,
 				405C329925AE7A5900EE1420 /* ChatViewFiles */,
 				405C329B25AE7B1D00EE1420 /* DetailViewsFiles */,
 				4061C3B42545FFAF002DAA70 /* MenuViewsFiles */,
+				406380CE25BCBAC3006941BA /* Obsolete */,
 				405C328325AE6E2800EE1420 /* OtherViews */,
 			);
 			path = Views;
@@ -418,9 +431,7 @@
 		4061C3A72542F1D3002DAA70 /* ExploreViewFiles */ = {
 			isa = PBXGroup;
 			children = (
-				4061C3AA2542F254002DAA70 /* ExploreView.swift */,
 				40501DD62547975D00E4D65E /* SearchDeactivatedView.swift */,
-				40BFDE9E259F6EE1002387FF /* Groups */,
 				40BFDE9D259F6EDA002387FF /* Users */,
 				40E179432540C0940010DE54 /* NewGroupFiles */,
 			);
@@ -463,6 +474,14 @@
 				408EADCA2554DEDA00E04D17 /* SubMenuCategory.swift */,
 			);
 			path = MenuViewsFiles;
+			sourceTree = "<group>";
+		};
+		406380CE25BCBAC3006941BA /* Obsolete */ = {
+			isa = PBXGroup;
+			children = (
+				4061C3AA2542F254002DAA70 /* ExploreView_old.swift */,
+			);
+			path = Obsolete;
 			sourceTree = "<group>";
 		};
 		406D4BED254985F7005AB9D8 /* GroupDetails */ = {
@@ -557,12 +576,7 @@
 		40BFDE9E259F6EE1002387FF /* Groups */ = {
 			isa = PBXGroup;
 			children = (
-				408AAB98255E040400024E43 /* GroupsMainView.swift */,
 				400488E0257DC32B000D0BD5 /* GroupsListView.swift */,
-				405C32E525BA4A0600EE1420 /* GroupsGroupsWidget.swift */,
-				405C32E825BA4A2A00EE1420 /* GroupsRecommendationWidget.swift */,
-				405C32A225B11E8F00EE1420 /* GroupsUserWidget.swift */,
-				405C32AA25B3D8A100EE1420 /* GroupsChatWidget.swift */,
 				40BFDEA3259F6F7D002387FF /* GroupItemView.swift */,
 				40BFDEA6259F6FB1002387FF /* GroupUsersChunk.swift */,
 				408AAB802559530700024E43 /* NewGroupUserSelectionView.swift */,
@@ -718,7 +732,6 @@
 			);
 			name = Playground6;
 			packageProductDependencies = (
-				4039E286259D870100C4F3C1 /* WaterfallGrid */,
 			);
 			productName = Playground6;
 			productReference = 40E179312540C0850010DE54 /* Playground6.app */;
@@ -959,7 +972,7 @@
 				40E179372540C0850010DE54 /* ContentView.swift in Sources */,
 				406D4BF025498A4D005AB9D8 /* MenuUserSelection.swift in Sources */,
 				40501DD72547975D00E4D65E /* SearchDeactivatedView.swift in Sources */,
-				4061C3AB2542F254002DAA70 /* ExploreView.swift in Sources */,
+				4061C3AB2542F254002DAA70 /* ExploreView_old.swift in Sources */,
 				408EAE022558E35B00E04D17 /* GroupTailItem.swift in Sources */,
 				400488E1257DC32B000D0BD5 /* GroupsListView.swift in Sources */,
 				405C32A325B11E8F00EE1420 /* GroupsUserWidget.swift in Sources */,
@@ -1191,14 +1204,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		4039E286259D870100C4F3C1 /* WaterfallGrid */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4039E285259D870100C4F3C1 /* XCRemoteSwiftPackageReference "WaterfallGrid" */;
-			productName = WaterfallGrid;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 40E179292540C0850010DE54 /* Project object */;
 }

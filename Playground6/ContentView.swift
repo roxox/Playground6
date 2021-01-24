@@ -16,6 +16,13 @@ struct ContentView: View {
     @State var isSearchActive = true
     @State var selectedUser: AppUser?
     @State var createNewGroup: Bool = false
+    @State var users = appUserData
+    
+    @State var entertain: Bool = false
+    @State var food: Bool = false
+    @State var sport: Bool = false
+    @State var search: Bool = false
+    @State var isCircle: Bool = false
     
     func isMenuActive() -> Bool {
         if menuControl.showSearchMenu == true {
@@ -29,13 +36,22 @@ struct ContentView: View {
         ZStack() {
             
             if pageIndex == 0 {
-                if isSearchActive {
-                    ExploreView(createNewGroup: $createNewGroup)
-                        .edgesIgnoringSafeArea(.all)
-                } else {
-                    SearchDeactivatedView(isSearchActive: $isSearchActive)
-                        .padding(.top, 4)
-                }
+//                if isSearchActive {
+//                    ExploreView(createNewGroup: $createNewGroup)
+//                        .edgesIgnoringSafeArea(.all)
+//                } else {
+//                    SearchDeactivatedView(isSearchActive: $isSearchActive)
+//                        .padding(.top, 4)
+//                }
+                
+                    GroupsMainView(
+                        users: $users,
+                        entertain: $entertain,
+                        food: $food,
+                        sport: $sport,
+                        search: $search,
+                        isCircle: $isCircle
+                    )
             } else if pageIndex == 1 {
                 MyGroupsView()
             } else if pageIndex == 2 {

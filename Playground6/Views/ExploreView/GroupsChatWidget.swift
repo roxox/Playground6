@@ -17,28 +17,12 @@ struct GroupsChatWidget: View {
     var body: some View {
         VStack() {
             HStack(alignment: .bottom) {
-//                RoundedRectangle(cornerRadius: 10)
-//                    .fill(gradientPinkOrange)
-//                    .frame(width: circleSize, height: circleSize)
-//                    .overlay(
-//                        Image(systemName: "envelope.fill")
-//                            .font(.systemMedium(size: 14))
-//                            .imageScale(.medium)
-//                            .foregroundColor(.white)
-//                            .frame(width: 25, height: 25)
-//                    )
                     Text("Nachrichten")
                         .font(.systemExtrabold(size: 26))
-//                        .fontWeight(.semibold)
                         .foregroundColor(Color.black)
                         .lineLimit(1)
                 
                 Spacer()
-//                Text("Alle anzeigen")
-//                    .font(.systemBold(size: 15))
-//                    .underline()
-//                    .foregroundColor(.black)
-//                    .offset(y: -2)
             }
             .padding(.horizontal, 25)
             .padding(.top, 25)
@@ -54,7 +38,6 @@ struct GroupsChatWidget: View {
                                 .renderingMode(.original)
                                 .resizable()
                                 .scaledToFill()
-                                //                            .frame(width: itemWidth, height: itemHeight)
                                 .frame(width: itemWidth, height: itemWidth)
                                 .overlay(
                                     gradient
@@ -63,19 +46,16 @@ struct GroupsChatWidget: View {
                             
                             // 2. User und Text
                             VStack(alignment: .leading) {
-//                                HStack(alignment: .center) {
                                 HStack() {
                                     Text(user.username)
                                         .font(.systemBold(size: 17))
                                         .fontWeight(.bold)
                                         .foregroundColor(Color ("almost_black"))
                                         .lineLimit(1)
-                                    //                            Spacer()
                                     Spacer()
                                     
                                     Text("Gestern")
                                         .font(.systemBold(size: 15))
-//                                        .fontWeight(.medium)
                                         .foregroundColor(Color.gray)
                                         .lineLimit(1)
 //                                }
@@ -83,7 +63,6 @@ struct GroupsChatWidget: View {
                                 
                                     Text("Hier koennte Ihr text stehen. Zur Zeit ist es nur ein Beispieltext.")
                                         .font(.system(size: 14))
-//                                        .fontWeight(.medium)
                                         .foregroundColor(Color.gray)
                                         .lineLimit(2)
                                         .padding(.trailing, 10)
@@ -93,48 +72,16 @@ struct GroupsChatWidget: View {
                             }
                             .padding(.top, 5)
                             .padding(.leading, 5)
-                            //                        .padding(.leading, 1)
-                            //                    }
-                            //                    .padding(.bottom, 15)
-                            //                    .padding(.trailing, 1)
-                            
-//                            Spacer()
-//
-//                            // 3. Uhrzeit oder Tag
-//                            VStack(alignment: .trailing) {
-//                                Text("Gestern")
-//                                    .font(.systemMedium(size: 16))
-//                                    .fontWeight(.medium)
-//                                    .foregroundColor(Color.gray)
-//                                    .lineLimit(2)
-//
-//                                Spacer()
-//                            }
-//                            .padding(.top, 5)
-//                            .padding(.leading, 15)
                         }
-//                        .padding(.top, 5)
-                        
-//                        Divider()
                     }
                 }
                 .padding(.horizontal, 25)
             }
             
-//            HStack() {
-//                Text("Alle anzeigen")
-//                    .font(.systemBold(size: 15))
-//                    .underline()
-//                    .foregroundColor(.black)
-//                    .padding(.top, 15)
-//            }
-            
             HStack() {
-//                Spacer()
                 HStack() {
                     Text("Alle anzeigen")
                         .font(.systemBold(size: 16))
-                        //                        .underline()
                         .foregroundColor(.black)
                         .padding(.vertical, 8)
                         .padding(.horizontal, 10)

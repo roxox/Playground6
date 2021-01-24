@@ -37,7 +37,7 @@ struct GroupsRecommendationWidget: View {
                             .padding(.bottom, 5)
                             
                             HStack {
-                                Text("Burger bei In'N'Out")
+                                Text("Burger bei In-N-Out")
                                     .font(.systemBold(size: 28))
                                     .foregroundColor(Color.white)
                                     .lineLimit(1)
@@ -59,7 +59,6 @@ struct GroupsRecommendationWidget: View {
                                 HStack() {
                                     Text("Anpassen und erstellen")
                                         .font(.systemBold(size: 16))
-                //                        .underline()
                                         .foregroundColor(.white)
                                         .padding(.vertical, 10)
                                         .padding(.horizontal, 12)
